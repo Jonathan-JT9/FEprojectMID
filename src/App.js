@@ -1,16 +1,14 @@
 import React from "react";
-import Body from "./components/Header/Body";
+import Body from "./components/Body";
 import Head from "./components/Header";
-//import "./styles.css"
-import 
 
-function App() {
+const App = () => {
   return (
     <div>
       <Body />
       <Head />
     </div>
   );
-}
+};
 
 export default App;

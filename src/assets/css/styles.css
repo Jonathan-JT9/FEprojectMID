@@ -6,7 +6,7 @@
 body {
   font: 16px Helvetica, Sans-Serif;
   line-height: 24px;
-  background: url(images/noise.jpg);
+  background: url(../images/noise.jpg);
   align-items: center; /* Pusatkan secara vertikal */
 }
 
@@ -17,6 +17,16 @@ body {
 #page-wrap {
   width: 800px;
   margin: 40px auto 60px;
+}
+
+
+.bg img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%; /* Membuat gambar berbentuk lingkaran */
+  object-fit: cover; /* Pastikan isi gambar proporsional */
+  flex-shrink: 0; /* Agar gambar tidak mengecil */
+  margin-bottom: 50px; /* Jarak antara foto dan teks */
 }
 
 #pic {
